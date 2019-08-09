@@ -13,4 +13,4 @@ My resume
 https://krasnodar.hh.ru/resume/0e8113cdff026319990039ed1f4534786d6e65 
 
 http://psekups.ru/business/resume/__SergeMikhailovVUE_RUS.pdf  
-http://psekups.ru/business/resume/__SergeMikhailovVUE_ENG.pdf 
+http://psekups.ru/business/resume/__SergeMikhailovVUE_ENG.pdf

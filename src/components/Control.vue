@@ -68,7 +68,6 @@ export default {
       this.inputData = 0 
       this.prevKey = null   
       this.flagStopOperation = false;
-
       setTimeout( ()=>{
         if (this.$refs.inputData != null){
           this.$refs.inputData.focus()

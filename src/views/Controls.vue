@@ -3,6 +3,7 @@
     @click = "reset()" 
     @keyup.escape = "reset()" 
   >
+  <input type = "text" class = "inputPusto" />
   <h3>Three crazy controls. VUE subtlety test</h3>
   <div class="title">Control 1 </div>
 
@@ -45,6 +46,7 @@
   <br> val2: {{ _val2 }} 
   <br> val3: {{ _val3 }}
   <br> id: {{ _id }}
+  <input type = "text" class = "inputPusto" />
   <br> 
 </section>
 </template>
@@ -76,15 +78,14 @@
     methods:{
       tabKey(v){
       },
-
-    reset(){
-      this.$store.commit("setId", null)
-    },
-    controlAction(json){
-        this.$refs.e1.resetVal()
-        this.$refs.e2.resetVal()
-        this.$refs.e3.resetVal()
-    }
+      reset(){
+        this.$store.commit("setId", null)
+      },
+      controlAction(json){
+          this.$refs.e1.resetVal()
+          this.$refs.e2.resetVal()
+          this.$refs.e3.resetVal()
+      }
   }
 }
 </script>
@@ -102,5 +103,9 @@
 }
 .clear{
   clear: both;
+}
+.inputPusto{
+  width:1px;
+  border: 0px solid white;
 }
 </style>
